@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de pesquisa</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="cabecalho">
+            <h1> FreeCodeCamp Survey Form</h1>
+            <h2>
+                Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</h2>
+        </div>
+
+    </header>
+    <section>
+        <div class="box-pai">
+            <div class="formulario">
+                <div class="form-item">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+
+                </div>
+
+
+                <div class="form-item">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="e-mail" placeholder="Digite seu e-mail" required>
+
+                </div>
+
+                <div class="form-item">
+                    <label for="age">Idade (opcional):</label>
+                    <input type="age" name="age" id="age" placeholder="Digite sua idade">
+
+                </div>
+
+                <div class="form-item">
+                    <label for="funcao">
+                        Qual opção melhor descreve sua função atual?:</label>
+                    <select name="funcao" id="funcao">
+                        <option value="est" selected disabled>Selecione uma opção</option>
+                        <option value="est">Estudante</option>
+                        <option value="est">Trabalho em tempo integral</option>
+                        <option value="est">Aprendiz em tempo integral</option>
+                        <option value="est">Não prefiro dizer</option>
+                        <option value="est">Outros</option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-item-radio">
+                    <div class="label">
+                        <label for="recomendar">Você recomendaria o freeCodeCamp a um amigo?</label>
+                    </div>
+                    <div class="radio">
+                        <div class="radio-item">
+                            <input type="radio" name="opçoes" id="recomendar">
+                            <p>Definitivamente</p>
+                        </div>
+
+                        <div class="radio-item">
+                            <input type="radio" name="opçoes" id="recomendar">
+                            <p>Pode ser</p>
+                        </div>
+
+                        <div class="radio-item">
+                            <input type="radio" name="opçoes" id="recomendar">
+                            <p>Não tenho certeza</p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="form-item">
+                    <label for="favorito">
+                        Qual opção melhor descreve sua função atual?:</label>
+                    <select name="favorito" id="favorito">
+                        <option value="est" selected disabled>Selecione uma opção</option>
+                        <option value="est">Desafios</option>
+                        <option value="est">Projetos</option>
+                        <option value="est">Comunidade</option>
+                        <option value="est">Codigo Aberto</option>
+
+
+                    </select>
+
+                </div>
+
+                <div class="form-item-checkbox">
+                    <label for="check-box">
+                        O que você gostaria de ver melhorado? (Marque todos os que se aplicam)</label>
+                    <div class="check">
+                        <div class="check-item">
+                            <input type="checkbox" id="check-box">
+                            <label for="music"> Projetos Front-end </ label>
+                        </div>
+
+                        <div class="check-item">
+                            <input type="checkbox" id="check-box">
+                            <label for="music"> Projetos back-end </ label>
+                        </div>
+
+                        <div class="check-item">
+                            <input type="checkbox" id="check-box">
+                            <label for="music"> Visualização de dados </ label>
+                        </div>
+
+
+                        <div class="check-item">
+                            <input type="checkbox" id="check-box">
+                            <label for="music"> Desafios </ label>
+                        </div>
+
+                        <div class="check-item">
+                            <input type="checkbox" id="check-box">
+                            <label for="music">
+                                Comunidade de código aberto </ label>
+                        </div>
+
+                        <div class="check-item">
+                            <input type="checkbox" id="check-box">
+                            <label for="music"> Salas de ajuda do Gitter </ label>
+                        </div>
+
+                        <div class="check-item">
+                            <input type="checkbox" id="check-box">
+                            <label for="music"> Videos</ label>
+                        </div>
+
+                        <div class="check-item">
+                            <input type="checkbox" id="check-box">
+                            <label for="music"> Encontros da Cidade </ label>
+                        </div>
+
+                        <div class="check-item">
+                            <input type="checkbox" id="check-box">
+                            <label for="music"> Wiki </ label>
+                        </div>
+
+                        <div class="check-item">
+                            <input type="checkbox" id="check-box">
+                            <label for="music"> Forum </ label>
+                        </div>
+
+                        <div class="check-item">
+                            <input type="checkbox" id="check-box">
+                            <label for="music"> Cursos Adicionais</ label>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="textarea">
+                    <label for="story">Algum comentário ou sugestão?</label>
+
+                    <textarea id="story" name="story" rows="5" cols="33"></textarea>
+
+                </div>
+
+                <div class="submit">
+                    <button type="submit">Enviar</button>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>
